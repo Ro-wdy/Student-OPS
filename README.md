@@ -89,19 +89,6 @@ All endpoints accept and return JSON.
 }
 ```
 
-### Example response
-
-```json
-{
-  "id": 1,
-  "name": "Jane Doe",
-  "email": "jane@example.com",
-  "age": 21,
-  "course": "Computer Science",
-  "created_at": "2026-10-01T10:00:00.000000+00:00"
-}
-```
-
 ### Errors
 
 - `400` if a field is missing or invalid, or the email is already used
